@@ -23,8 +23,7 @@ pygame.mixer.init()
 sound_pins = {
     2: Sound("samples/drum_tom_mid_hard.wav"),
     3: Sound("samples/drum_cymbal_open.wav"),
-    4: Sound("samples/"),
-    17: Sound("samples/")
+    4: Sound("samples/drum_heavy_kick.wav"),
 }
 
 buttons = [Button(pin) for pin in sound_pins]
