@@ -15,3 +15,4 @@ while True:
         time.sleep(1)    
     motor1.stop()
     motor2.stop()
+    time.sleep(1)
